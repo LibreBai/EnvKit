@@ -1,0 +1,2 @@
+# Example: Add this to your .zshrc
+source ~/myenv-shell/myenv.sh
