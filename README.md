@@ -8,6 +8,7 @@ _Simple and practical, endless joy._
 
 ## 📦 项目结构
 
+```bash
 EnvKit/
  ├── myenv.sh # 主入口脚本，统一加载各模块
  ├── install.sh # 一键安装脚本（添加 source 到 zshrc/bashrc） 
@@ -21,7 +22,7 @@ EnvKit/
  │ └── zshrc.append # 用于参考的 .zshrc 示例 
  ├── LICENSE 
  └── README.md
-
+```
 ---
 
 ## 🚀 快速使用
