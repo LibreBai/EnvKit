@@ -18,12 +18,12 @@ proxy_on()
   export https_proxy="$SOCKS_PROXY"
 
   # 设置 SOCKS 代理
-  export ALL_PROXY="$SOCKS_PROXY"
-  export SOCKS_PROXY="$SOCKS_PROXY"
+  # export ALL_PROXY="$SOCKS_PROXY"
+  # export SOCKS_PROXY="$SOCKS_PROXY"
 
   # 输出当前代理设置
-  echo "代理已启用：$http_proxy"
-  echo "SOCKS 代理已启用：$SOCKS_PROXY"
+  # echo "代理已启用：$http_proxy"
+  # echo "SOCKS 代理已启用：$SOCKS_PROXY"
 }
 
 # 关闭代理
@@ -53,3 +53,5 @@ proxy_status()
     echo "SOCKS_PROXY = $SOCKS_PROXY"
   fi
 }
+
+proxy_on
